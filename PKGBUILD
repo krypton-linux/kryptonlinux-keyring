@@ -14,12 +14,13 @@ source=('https://raw.githubusercontent.com/krypton-linux/kryptonlinux-keyring/ma
         'https://raw.githubusercontent.com/krypton-linux/kryptonlinux-keyring/main/kryptonlinux-revoked'
         'https://raw.githubusercontent.com/krypton-linux/kryptonlinux-keyring/main/kryptonlinux.gpg')
 
-sha256sums=('57fc188eb1eb81c6fd4ba98e795adf4a98f3e553c2b87afabbaf65cb5c1df22d'
-            'bf6d3de49bad87e394f542cf19708356fdac19255315200bb089eb360426f735'
+sha256sums=('f3bf64f5cee5e04679897c26c84ed3a5e3b22a0234fd07d8006e72ef9ede18bd'
+            '78f0a9e679de6b8ec224d9bd8fb65f6f216c14d287e8ed0c59a08c0e65a93483'
             'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
-            '9abe77dfb84802cc383768b5820b70a4ba4eab9ed42c460724d5ef913b2392fc')
+            '85a7fc3306002d409aab90432b30f3075e910fb1a18eaeafcf690121b606e6c2')
 
-validpgpkeys=("5384B7916710F361C29659BC3EFCB5A1E5F25C93") #Itsuki0222
+validpgpkeys=("5384B7916710F361C29659BC3EFCB5A1E5F25C93"  #Itsuki0222
+              "4A23DFF9A4C7C7780EF378BAF6D88F90EF627755") #TNTSuperMan
 
 
 package() {
